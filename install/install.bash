@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install net-tools
 sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
   ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan \
@@ -9,6 +10,7 @@ sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
   ros-melodic-compressed-image-transport ros-melodic-rqt* \
   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
+
 
 sudo apt-get install ros-melodic-dynamixel-sdk
 sudo apt-get install ros-melodic-turtlebot3-msgs
